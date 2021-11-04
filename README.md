@@ -18,7 +18,7 @@
     |                 └──AccountTests.scala
     |
     └── tasks
-         ├── task1.scala
+         ├──task1.scala
          └──task2.scala
 
 ### Tasks
