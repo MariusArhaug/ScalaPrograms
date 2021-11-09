@@ -23,7 +23,7 @@ class Account(val bank: Bank, initialBalance: Double) {
             balance.amount += amount
         }
     }
-    def getBalanceAmount: Double       = balance.amount
+    def getBalanceAmount: Double = balance.amount
 
     def transferTo(account: Account, amount: Double) = {
         bank addTransactionToQueue (this, account, amount)

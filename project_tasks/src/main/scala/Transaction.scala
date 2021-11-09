@@ -7,10 +7,7 @@ object TransactionStatus extends Enumeration {
 
 class TransactionQueue {
 
-    // TODO
-    // project task 1.1
-    // Add datastructure to contain the transactions
-    val queue = Queue[Transaction]()
+    private val queue = Queue[Transaction]()
 
     // Remove and return the first element from the queue
     def pop: Transaction = queue.dequeue
